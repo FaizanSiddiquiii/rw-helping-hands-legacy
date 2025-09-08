@@ -39,64 +39,66 @@ const Contact = () => {
               </div>
 
               <div className="space-y-6">
-                <Card className="p-6 shadow-soft">
-                  <CardContent className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mt-1">
-                      <MapPin className="w-6 h-6 text-primary" />
+                <Card className="p-4 md:p-6 shadow-soft">
+                  <CardContent className="flex items-start space-x-3 md:space-x-4">
+                    <div className="w-10 h-10 md:w-12 md:h-12 bg-primary/10 rounded-full flex items-center justify-center mt-1">
+                      <MapPin className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-primary mb-2">Our Address</h3>
-                      <p className="text-muted-foreground">
+                      <h3 className="font-semibold text-primary mb-2 text-sm md:text-base">Our Address</h3>
+                      <p className="text-xs md:text-sm text-muted-foreground">
                         RW Helping Hands Office<br />
-                        [Complete Address]<br />
-                        City, State - PIN Code<br />
-                        India
+                        House No. 123, Block A<br />
+                        Gulshan-e-Iqbal, Karachi<br />
+                        Sindh - 75300<br />
+                        Pakistan
                       </p>
                     </div>
                   </CardContent>
                 </Card>
 
-                <Card className="p-6 shadow-soft">
-                  <CardContent className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mt-1">
-                      <Phone className="w-6 h-6 text-secondary" />
+                <Card className="p-4 md:p-6 shadow-soft">
+                  <CardContent className="flex items-start space-x-3 md:space-x-4">
+                    <div className="w-10 h-10 md:w-12 md:h-12 bg-secondary/10 rounded-full flex items-center justify-center mt-1">
+                      <Phone className="w-5 h-5 md:w-6 md:h-6 text-secondary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-primary mb-2">Phone Numbers</h3>
-                      <p className="text-muted-foreground">
-                        Primary: +91 XXXX XXXXXX<br />
-                        Emergency: +91 XXXX XXXXXX<br />
-                        WhatsApp: +91 XXXX XXXXXX
+                      <h3 className="font-semibold text-primary mb-2 text-sm md:text-base">Phone Numbers</h3>
+                      <p className="text-xs md:text-sm text-muted-foreground">
+                        Primary: +92-21-1234-5678<br />
+                        Mobile: +92-300-123-4567<br />
+                        WhatsApp: +92-300-123-4567
                       </p>
                     </div>
                   </CardContent>
                 </Card>
 
-                <Card className="p-6 shadow-soft">
-                  <CardContent className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mt-1">
-                      <Mail className="w-6 h-6 text-primary" />
+                <Card className="p-4 md:p-6 shadow-soft">
+                  <CardContent className="flex items-start space-x-3 md:space-x-4">
+                    <div className="w-10 h-10 md:w-12 md:h-12 bg-primary/10 rounded-full flex items-center justify-center mt-1">
+                      <Mail className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-primary mb-2">Email Addresses</h3>
-                      <p className="text-muted-foreground">
-                        General: info@rwhelpinghands.org<br />
-                        Donations: donations@rwhelpinghands.org<br />
-                        Volunteer: volunteer@rwhelpinghands.org
+                      <h3 className="font-semibold text-primary mb-2 text-sm md:text-base">Email Addresses</h3>
+                      <p className="text-xs md:text-sm text-muted-foreground">
+                        General: info@rwhelpinghands.pk<br />
+                        Donations: donations@rwhelpinghands.pk<br />
+                        Volunteer: volunteer@rwhelpinghands.pk
                       </p>
                     </div>
                   </CardContent>
                 </Card>
 
-                <Card className="p-6 shadow-soft">
-                  <CardContent className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mt-1">
-                      <Clock className="w-6 h-6 text-secondary" />
+                <Card className="p-4 md:p-6 shadow-soft">
+                  <CardContent className="flex items-start space-x-3 md:space-x-4">
+                    <div className="w-10 h-10 md:w-12 md:h-12 bg-secondary/10 rounded-full flex items-center justify-center mt-1">
+                      <Clock className="w-5 h-5 md:w-6 md:h-6 text-secondary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-primary mb-2">Office Hours</h3>
-                      <p className="text-muted-foreground">
-                        Monday - Friday: 9:00 AM - 6:00 PM<br />
+                      <h3 className="font-semibold text-primary mb-2 text-sm md:text-base">Office Hours</h3>
+                      <p className="text-xs md:text-sm text-muted-foreground">
+                        Monday - Thursday: 9:00 AM - 5:00 PM<br />
+                        Friday: 9:00 AM - 1:00 PM (Prayer break)<br />
                         Saturday: 9:00 AM - 2:00 PM<br />
                         Sunday: Emergency calls only<br />
                         <span className="text-xs italic mt-2 block">
@@ -201,17 +203,17 @@ const Contact = () => {
               please don't hesitate to reach out. We're here to help.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" className="text-lg px-8 py-4 font-semibold">
-                <Phone className="w-5 h-5 mr-2" />
-                Emergency Hotline: +91 XXXX XXXXXX
+              <Button size="lg" variant="secondary" className="text-base md:text-lg px-6 md:px-8 py-3 md:py-4 font-semibold">
+                <Phone className="w-4 h-4 md:w-5 md:h-5 mr-2" />
+                Emergency Hotline: +92-300-123-4567
               </Button>
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="text-lg px-8 py-4 font-semibold"
+                className="text-base md:text-lg px-6 md:px-8 py-3 md:py-4 font-semibold"
               >
-                <Mail className="w-5 h-5 mr-2" />
-                Quick Email: emergency@rwhelpinghands.org
+                <Mail className="w-4 h-4 md:w-5 md:h-5 mr-2" />
+                Quick Email: emergency@rwhelpinghands.pk
               </Button>
             </div>
           </div>

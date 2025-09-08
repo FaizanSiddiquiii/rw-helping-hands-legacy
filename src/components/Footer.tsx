@@ -54,6 +54,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/gallery" className="text-primary-foreground/80 hover:text-secondary transition-colors">
+                  Gallery
+                </Link>
+              </li>
+              <li>
                 <Link to="/get-involved" className="text-primary-foreground/80 hover:text-secondary transition-colors">
                   Get Involved
                 </Link>
@@ -84,19 +89,19 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 text-secondary mt-1 flex-shrink-0" />
-                <span className="text-primary-foreground/80">
+                <span className="text-primary-foreground/80 text-sm">
                   RW Helping Hands Office<br />
-                  City, State - PIN Code<br />
-                  India
+                  Gulshan-e-Iqbal, Karachi<br />
+                  Sindh - 75300, Pakistan
                 </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-secondary flex-shrink-0" />
-                <span className="text-primary-foreground/80">+91 XXXX XXXXXX</span>
+                <span className="text-primary-foreground/80 text-sm">+92-300-123-4567</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-secondary flex-shrink-0" />
-                <span className="text-primary-foreground/80">info@rwhelpinghands.org</span>
+                <span className="text-primary-foreground/80 text-sm">info@rwhelpinghands.pk</span>
               </div>
             </div>
           </div>

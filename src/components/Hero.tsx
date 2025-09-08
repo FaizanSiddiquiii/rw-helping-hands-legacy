@@ -26,46 +26,46 @@ const Hero = () => {
           </p>
 
           {/* Action Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8 animate-fade-in animate-delay-300">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-6 md:pt-8 animate-fade-in animate-delay-300 px-4">
             <Button 
               size="lg" 
               variant="secondary" 
-              className="text-lg px-8 py-4 font-semibold shadow-medium hover:shadow-strong transition-all"
+              className="text-base md:text-lg px-6 md:px-8 py-3 md:py-4 font-semibold shadow-medium hover:shadow-strong transition-all w-full sm:w-auto"
             >
-              <Heart className="w-5 h-5 mr-2" />
+              <Heart className="w-4 h-4 md:w-5 md:h-5 mr-2" />
               Make a Donation
             </Button>
             <Button 
               size="lg" 
               variant="outline" 
-              className="text-lg px-8 py-4 font-semibold border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
+              className="text-base md:text-lg px-6 md:px-8 py-3 md:py-4 font-semibold border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 w-full sm:w-auto"
             >
               Learn Our Story
             </Button>
           </div>
 
           {/* Impact Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-16 animate-fade-in animate-delay-300">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 pt-12 md:pt-16 animate-fade-in animate-delay-300 px-4">
             <div className="text-center space-y-2">
               <div className="flex justify-center">
-                <Users className="w-8 h-8 text-secondary" />
+                <Users className="w-6 h-6 md:w-8 md:h-8 text-secondary" />
               </div>
-              <div className="text-3xl font-bold">500+</div>
-              <div className="text-primary-foreground/80">Lives Touched</div>
+              <div className="text-2xl md:text-3xl font-bold">500+</div>
+              <div className="text-sm md:text-base text-primary-foreground/80">Lives Touched</div>
             </div>
             <div className="text-center space-y-2">
               <div className="flex justify-center">
-                <Heart className="w-8 h-8 text-secondary" />
+                <Heart className="w-6 h-6 md:w-8 md:h-8 text-secondary" />
               </div>
-              <div className="text-3xl font-bold">50+</div>
-              <div className="text-primary-foreground/80">Families Helped</div>
+              <div className="text-2xl md:text-3xl font-bold">50+</div>
+              <div className="text-sm md:text-base text-primary-foreground/80">Families Helped</div>
             </div>
             <div className="text-center space-y-2">
               <div className="flex justify-center">
-                <Globe className="w-8 h-8 text-secondary" />
+                <Globe className="w-6 h-6 md:w-8 md:h-8 text-secondary" />
               </div>
-              <div className="text-3xl font-bold">10+</div>
-              <div className="text-primary-foreground/80">Communities Served</div>
+              <div className="text-2xl md:text-3xl font-bold">15+</div>
+              <div className="text-sm md:text-base text-primary-foreground/80">Cities in Pakistan</div>
             </div>
           </div>
         </div>

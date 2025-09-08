@@ -12,6 +12,7 @@ const Navigation = () => {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Our Work", href: "/our-work" },
+    { name: "Gallery", href: "/gallery" },
     { name: "Get Involved", href: "/get-involved" },
     { name: "Contact", href: "/contact" },
   ];
@@ -21,13 +22,13 @@ const Navigation = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
+          <Link to="/" className="flex items-center space-x-2 md:space-x-3">
             <img 
               src="/lovable-uploads/ea55ef47-28a6-4ae7-a471-68359ee78a56.png" 
               alt="RW Helping Hands Logo" 
-              className="h-10 w-auto"
+              className="h-8 md:h-10 w-auto"
             />
-            <span className="font-bold text-xl text-primary">RW Helping Hands</span>
+            <span className="font-bold text-lg md:text-xl text-primary">RW Helping Hands</span>
           </Link>
 
           {/* Desktop Navigation */}

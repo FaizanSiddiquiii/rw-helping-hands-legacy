@@ -187,22 +187,22 @@ const OurWork = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center">
             <div className="space-y-2 animate-fade-in">
-              <div className="text-4xl md:text-5xl font-bold text-primary">500+</div>
-              <div className="text-muted-foreground">Lives Touched</div>
+              <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary">500+</div>
+              <div className="text-xs md:text-sm text-muted-foreground">Lives Touched</div>
             </div>
             <div className="space-y-2 animate-fade-in animate-delay-100">
-              <div className="text-4xl md:text-5xl font-bold text-secondary">50+</div>
-              <div className="text-muted-foreground">Families Rehabilitated</div>
+              <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary">50+</div>
+              <div className="text-xs md:text-sm text-muted-foreground">Families Rehabilitated</div>
             </div>
             <div className="space-y-2 animate-fade-in animate-delay-200">
-              <div className="text-4xl md:text-5xl font-bold text-primary">25+</div>
-              <div className="text-muted-foreground">Emergency Cases</div>
+              <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary">25+</div>
+              <div className="text-xs md:text-sm text-muted-foreground">Emergency Cases</div>
             </div>
             <div className="space-y-2 animate-fade-in animate-delay-300">
-              <div className="text-4xl md:text-5xl font-bold text-secondary">10+</div>
-              <div className="text-muted-foreground">Communities Served</div>
+              <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary">15+</div>
+              <div className="text-xs md:text-sm text-muted-foreground">Pakistani Cities</div>
             </div>
           </div>
         </div>

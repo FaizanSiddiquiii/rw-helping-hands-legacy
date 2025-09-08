@@ -135,28 +135,28 @@ const GetInvolved = () => {
               to contribute? We'd love to hear from you.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <Card className="p-6 shadow-soft">
-                <CardContent className="text-center space-y-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-                    <Phone className="w-6 h-6 text-primary" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+              <Card className="p-4 md:p-6 shadow-soft">
+                <CardContent className="text-center space-y-3 md:space-y-4">
+                  <div className="w-10 h-10 md:w-12 md:h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
+                    <Phone className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                   </div>
-                  <h3 className="font-semibold text-primary">Call Us</h3>
-                  <p className="text-muted-foreground">+91 XXXX XXXXXX</p>
-                  <p className="text-sm text-muted-foreground">
-                    Available Mon-Sat, 9 AM - 6 PM
+                  <h3 className="font-semibold text-primary text-sm md:text-base">Call Us</h3>
+                  <p className="text-muted-foreground text-sm md:text-base">+92-300-123-4567</p>
+                  <p className="text-xs md:text-sm text-muted-foreground">
+                    Available Mon-Thu & Sat, 9 AM - 5 PM
                   </p>
                 </CardContent>
               </Card>
 
-              <Card className="p-6 shadow-soft">
-                <CardContent className="text-center space-y-4">
-                  <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mx-auto">
-                    <Mail className="w-6 h-6 text-secondary" />
+              <Card className="p-4 md:p-6 shadow-soft">
+                <CardContent className="text-center space-y-3 md:space-y-4">
+                  <div className="w-10 h-10 md:w-12 md:h-12 bg-secondary/10 rounded-full flex items-center justify-center mx-auto">
+                    <Mail className="w-5 h-5 md:w-6 md:h-6 text-secondary" />
                   </div>
-                  <h3 className="font-semibold text-primary">Email Us</h3>
-                  <p className="text-muted-foreground">info@rwhelpinghands.org</p>
-                  <p className="text-sm text-muted-foreground">
+                  <h3 className="font-semibold text-primary text-sm md:text-base">Email Us</h3>
+                  <p className="text-muted-foreground text-sm md:text-base">info@rwhelpinghands.pk</p>
+                  <p className="text-xs md:text-sm text-muted-foreground">
                     We'll respond within 24 hours
                   </p>
                 </CardContent>
@@ -185,47 +185,47 @@ const GetInvolved = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-            <Card className="p-6 shadow-soft animate-fade-in">
+            <Card className="p-4 md:p-6 shadow-soft animate-fade-in">
               <CardContent className="space-y-2">
-                <div className="text-3xl font-bold text-secondary">₹100</div>
-                <div className="text-sm text-muted-foreground">
-                  Can provide a food package for a family of 4
+                <div className="text-2xl md:text-3xl font-bold text-secondary">Rs. 200</div>
+                <div className="text-xs md:text-sm text-muted-foreground">
+                  Can provide a food package for a Pakistani family of 4
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="p-6 shadow-soft animate-fade-in animate-delay-100">
+            <Card className="p-4 md:p-6 shadow-soft animate-fade-in animate-delay-100">
               <CardContent className="space-y-2">
-                <div className="text-3xl font-bold text-primary">₹500</div>
-                <div className="text-sm text-muted-foreground">
+                <div className="text-2xl md:text-3xl font-bold text-primary">Rs. 1,000</div>
+                <div className="text-xs md:text-sm text-muted-foreground">
                   Can cover school fees for one child for a month
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="p-6 shadow-soft animate-fade-in animate-delay-200">
+            <Card className="p-4 md:p-6 shadow-soft animate-fade-in animate-delay-200">
               <CardContent className="space-y-2">
-                <div className="text-3xl font-bold text-secondary">₹1000</div>
-                <div className="text-sm text-muted-foreground">
+                <div className="text-2xl md:text-3xl font-bold text-secondary">Rs. 2,000</div>
+                <div className="text-xs md:text-sm text-muted-foreground">
                   Can provide emergency medical assistance
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="p-6 shadow-soft animate-fade-in animate-delay-300">
+            <Card className="p-4 md:p-6 shadow-soft animate-fade-in animate-delay-300">
               <CardContent className="space-y-2">
-                <div className="text-3xl font-bold text-primary">₹5000</div>
-                <div className="text-sm text-muted-foreground">
+                <div className="text-2xl md:text-3xl font-bold text-primary">Rs. 10,000</div>
+                <div className="text-xs md:text-sm text-muted-foreground">
                   Can help rehabilitate an entire family
                 </div>
               </CardContent>
             </Card>
           </div>
 
-          <div className="text-center mt-12 animate-fade-in">
-            <p className="text-lg text-muted-foreground italic">
-              "Remember, even ₹1 donated in her memory becomes a source of continuous charity. 
-              Every contribution, no matter the size, continues her legacy of love."
+          <div className="text-center mt-8 md:mt-12 animate-fade-in px-4">
+            <p className="text-base md:text-lg text-muted-foreground italic">
+              "Remember, even Rs. 1 donated in her memory becomes a source of continuous charity. 
+              Every contribution, no matter the size, continues her legacy of love across Pakistan."
             </p>
           </div>
         </div>

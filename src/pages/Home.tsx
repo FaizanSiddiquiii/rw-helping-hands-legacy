@@ -38,53 +38,53 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="text-center p-8 shadow-soft hover:shadow-medium transition-all animate-fade-in animate-delay-100">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+            <Card className="text-center p-6 md:p-8 shadow-soft hover:shadow-medium transition-all animate-fade-in animate-delay-100">
               <CardHeader>
-                <div className="mx-auto w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-4">
-                  <Heart className="w-8 h-8 text-secondary" />
+                <div className="mx-auto w-12 h-12 md:w-16 md:h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-4">
+                  <Heart className="w-6 h-6 md:w-8 md:h-8 text-secondary" />
                 </div>
-                <CardTitle className="text-xl font-semibold text-primary">
+                <CardTitle className="text-lg md:text-xl font-semibold text-primary">
                   Emergency Relief
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
-                  Providing immediate assistance to families facing crisis situations, 
+                <p className="text-sm md:text-base text-muted-foreground">
+                  Providing immediate assistance to families facing crisis situations across Pakistan, 
                   ensuring no one suffers alone during their darkest moments.
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="text-center p-8 shadow-soft hover:shadow-medium transition-all animate-fade-in animate-delay-200">
+            <Card className="text-center p-6 md:p-8 shadow-soft hover:shadow-medium transition-all animate-fade-in animate-delay-200">
               <CardHeader>
-                <div className="mx-auto w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-4">
-                  <Hand className="w-8 h-8 text-secondary" />
+                <div className="mx-auto w-12 h-12 md:w-16 md:h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-4">
+                  <Hand className="w-6 h-6 md:w-8 md:h-8 text-secondary" />
                 </div>
-                <CardTitle className="text-xl font-semibold text-primary">
+                <CardTitle className="text-lg md:text-xl font-semibold text-primary">
                   Community Support
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
-                  Building stronger communities through education, healthcare initiatives, 
+                <p className="text-sm md:text-base text-muted-foreground">
+                  Building stronger communities throughout Pakistan through education, healthcare initiatives, 
                   and programs that uplift the most vulnerable among us.
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="text-center p-8 shadow-soft hover:shadow-medium transition-all animate-fade-in animate-delay-300">
+            <Card className="text-center p-6 md:p-8 shadow-soft hover:shadow-medium transition-all animate-fade-in animate-delay-300">
               <CardHeader>
-                <div className="mx-auto w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-4">
-                  <Users className="w-8 h-8 text-secondary" />
+                <div className="mx-auto w-12 h-12 md:w-16 md:h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-4">
+                  <Users className="w-6 h-6 md:w-8 md:h-8 text-secondary" />
                 </div>
-                <CardTitle className="text-xl font-semibold text-primary">
+                <CardTitle className="text-lg md:text-xl font-semibold text-primary">
                   Family Rehabilitation
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
-                  Helping families rebuild their lives through comprehensive support, 
+                <p className="text-sm md:text-base text-muted-foreground">
+                  Helping Pakistani families rebuild their lives through comprehensive support, 
                   guidance, and the resources they need to thrive once again.
                 </p>
               </CardContent>
@@ -96,31 +96,31 @@ const Home = () => {
       {/* Call to Action */}
       <section className="section-padding bg-primary text-primary-foreground">
         <div className="container-custom">
-          <div className="max-w-3xl mx-auto text-center space-y-8 animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-bold">
+          <div className="max-w-3xl mx-auto text-center space-y-6 md:space-y-8 animate-fade-in px-4">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
               Be Part of Her Legacy
             </h2>
-            <p className="text-xl text-primary-foreground/90">
+            <p className="text-lg md:text-xl text-primary-foreground/90">
               Every donation, no matter how small, continues her beautiful work. 
               Even one rupee becomes a source of continuous charity in her memory, 
-              creating ripples of kindness that will touch countless lives.
+              creating ripples of kindness that will touch countless lives across Pakistan.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 size="lg" 
                 variant="secondary"
-                className="text-lg px-8 py-4 font-semibold"
+                className="text-base md:text-lg px-6 md:px-8 py-3 md:py-4 font-semibold"
               >
-                <Heart className="w-5 h-5 mr-2" />
+                <Heart className="w-4 h-4 md:w-5 md:h-5 mr-2" />
                 Donate in Her Memory
               </Button>
               <Button 
                 size="lg" 
                 variant="outline"
-                className="text-lg px-8 py-4 font-semibold border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
+                className="text-base md:text-lg px-6 md:px-8 py-3 md:py-4 font-semibold border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
               >
                 Volunteer With Us
-                <ArrowRight className="w-5 h-5 ml-2" />
+                <ArrowRight className="w-4 h-4 md:w-5 md:h-5 ml-2" />
               </Button>
             </div>
           </div>

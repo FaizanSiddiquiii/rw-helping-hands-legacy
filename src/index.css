@@ -133,7 +133,7 @@ All colors MUST be HSL.
   }
   
   .section-padding {
-    @apply px-6 py-16 sm:px-8 lg:px-12;
+    @apply px-4 py-12 sm:px-6 sm:py-16 lg:px-12 lg:py-20;
   }
   
   .container-custom {
@@ -150,5 +150,59 @@ All colors MUST be HSL.
   
   .animate-delay-300 {
     animation-delay: 0.3s;
+  }
+
+  /* Responsive text utilities */
+  .text-responsive-xs {
+    @apply text-xs sm:text-sm;
+  }
+
+  .text-responsive-sm {
+    @apply text-sm sm:text-base;
+  }
+
+  .text-responsive-base {
+    @apply text-base sm:text-lg;
+  }
+
+  .text-responsive-lg {
+    @apply text-lg sm:text-xl md:text-2xl;
+  }
+
+  .text-responsive-xl {
+    @apply text-xl sm:text-2xl md:text-3xl;
+  }
+
+  .text-responsive-2xl {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  /* Mobile-first spacing */
+  .space-mobile {
+    @apply space-y-4 md:space-y-6;
+  }
+
+  .gap-mobile {
+    @apply gap-4 md:gap-6 lg:gap-8;
+  }
+
+  /* Responsive padding */
+  .padding-mobile {
+    @apply p-4 md:p-6 lg:p-8;
+  }
+
+  /* Line clamp utilities */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 }
